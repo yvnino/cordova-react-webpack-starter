@@ -1,0 +1,15 @@
+node_modules
+.vscode
+npm-debug.log
+jsconfig.json
+typings
+platforms
+www/bundle.js
+www/*.eot
+www/*.ttf
+www/*.woff
+www/*.svg
+www/*.woff2
+www/*.PNG
+www/*.png
+www/bundle.js.map
