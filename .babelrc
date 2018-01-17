@@ -1,0 +1,37 @@
+{
+   "plugins":
+   [
+       "react-hot-loader/babel",
+       "transform-decorators-legacy",
+       "transform-es2015-literals"
+   ],
+   "ignore" : [
+       "node_modules/**"
+   ],
+
+   "presets":
+   [
+       "es2015",
+       "stage-0",
+       "react"
+   ],
+   "env":
+   {
+       "production":
+       {
+           "presets":
+           [
+               "react-optimize"
+           ]
+       },
+
+       "development":
+       {
+           "plugins":
+           [
+               "transform-react-jsx-source"
+           ]
+       }
+   }
+
+}
