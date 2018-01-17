@@ -8,19 +8,14 @@ import {
 // Styling
 import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
-import '../../style/app.css';
-
 
 export default class Main extends Component {
   constructor(props) {
     super(props);
-
-
     this.state = {
     }
   }
-
-
+  
   renderToolbar() {
     return (
       <Toolbar>
@@ -28,9 +23,6 @@ export default class Main extends Component {
       </Toolbar>
     );
   }
-
-
-
 
   render() {
     return (
